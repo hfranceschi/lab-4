@@ -1,34 +1,37 @@
-# Lab 2
+Lab 4
+Due: Tuesday September 22 (11PM)
 
-**Due:** Monday September 21, 10am
+You need to write two classes:
+**Name1Name2Rectangle and Name1Name2RectangleClient (for me, it would be HerveFranceschiRectangle and HerveFranceschiRectangleClient)**
 
-## Problem
+The Name1Name2Rectangle class encapsulates a rectangle:
 
-Every country has a change in population over time (up or down) due to three causes: births, deaths, and migration. Write a program that estimates future population size for a country (any country) given its rate of births, deaths, and migration, the current population, and the desired number of years in the future for the estimate. For example, if the user enters 1 birth every 8 seconds, 1 death every 12 seconds, 1 immigrant every 28 seconds, a current population of 326,766,748 (estimates from the US Census) and wants to estimate the population 5 years into the future, the program should respond with an estimate of 338,968,177. **Note:** to specify net emmigration, use a negative number for migration. 
+A rectangle has a width and a height, both integers. **Both width and height must be greater than or equal to 0 at all times**. It includes the following methods:
+A default constructor that sets the values of width and height to 0.
+A constructor that accepts two parameters and assigns them to the width and height.
+Two accessor methods for width and height.
+Two mutator methods for width and height.
+A method to calculate **and return** the perimeter of the ("this") rectangle (i.e. NOT another rectangle).
+A method to calculate **and return** the area of the ("this") rectangle (i.e. NOT another rectangle).
+A toString method (use common sense to decide what String it should return). The toString methods returns a "human readable" representation of the ("this") object.
 
-## Instructions
+The rectangle client class, where the main method is located, must **test ALL the methods** of the rectangle class above; at the very minimum, it should call both constructors and the seven other methods above.
 
-1. Create **test cases** (see section below). 
-2.	Create a new Python file and include **intro comments** at the top of your .py file (template below). Include both of your names in the file name.
-3. **Use comments to write the algorithm** your program will follow.
-4.	Write the Python **code** corresponding to each of your algorithm's steps.
-5.	**Test** your completed code using your test cases. If the output doesn't match, correct your program.
-6.	**Commit** and **push** changes and check github.com to confirm the update before leaving lab (even if not finished).
+// Programmers: [your names]
+// Course: CS212, Prof. Franceschi  
+// Date:
+// Lab Number:
+// Program Inputs [What information do you request from the user? (if any)]
+// Program Outputs: [What information do you display for the user?]
 
-```
-# Programmers: [your names]
-# Course: CS151, Prof. Franceschi  
-# Date:
-# Lab Number:
-# Program Inputs: [What information do you request from the user?]
-# Program Outputs: [What information do you display for the user?]
-```
 
-### Test Cases
+TOPIC Points
 
-Create an Excel File with at least five test cases. Use one row per test case with a column for test number, a column for each input, followed by a column for each corresponding output. Use a calculator if needed to compute the outputs. **Use the example in the problem statement as your first test case.**
+* Comments at beginning of program 6
+* Correctness 80 (including 2 points per method called)
+* Good variable names 7
+* Comments, style, indentation, .. 7
 
-## Submission
-
-1.	GitHub: Completed .py file (including comments).
-2.	Moodle: Completed .py file and Excel file with **test cases** (one per team with all member names).
+Submission
+1. GitHub: Completed .java file (including comments)
+2. Moodle: Same as above
